@@ -1,0 +1,10 @@
+{
+  "MNIST-style preprocessing": {
+    "baseline": 0.92,
+    "augmented": 0.92
+  },
+  "naive resize": {
+    "baseline": 0.5,
+    "augmented": 0.87
+  }
+}
