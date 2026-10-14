@@ -1,0 +1,10 @@
+{
+  "baseline": {
+    "val_clean": 0.9742,
+    "val_shifted": 0.5736
+  },
+  "augmented": {
+    "val_clean": 0.9742,
+    "val_shifted": 0.9204
+  }
+}
