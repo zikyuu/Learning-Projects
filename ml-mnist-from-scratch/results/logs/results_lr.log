@@ -1,0 +1,5 @@
+lr 0.001  final batch loss 1.792  val acc after 1 epoch 0.575
+lr 0.01   final batch loss 0.449  val acc after 1 epoch 0.867
+lr 0.1    final batch loss 0.161  val acc after 1 epoch 0.910
+lr 1      final batch loss 0.127  val acc after 1 epoch 0.890
+lr 5      final batch loss 2.381  val acc after 1 epoch 0.105

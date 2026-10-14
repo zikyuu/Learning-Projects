@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "name": "overfit: 512 hidden, 500 samples",
+      "train_acc": 1.0,
+      "val_acc": 0.8601,
+      "val_loss": 0.5175601937212849,
+      "min_val_loss": 0.464139019856776,
+      "best_epoch": 36,
+      "gap": 0.13990000000000002
+    },
+    {
+      "name": "early stopping (epoch 36)",
+      "train_acc": 1.0,
+      "val_acc": 0.8602,
+      "val_loss": 0.45970959162653235,
+      "best_epoch": 36,
+      "gap": 0.13980000000000004
+    },
+    {
+      "name": "smaller model (16 hidden)",
+      "train_acc": 1.0,
+      "val_acc": 0.8377,
+      "val_loss": 0.66654912644543,
+      "min_val_loss": 0.5632749677374633,
+      "best_epoch": 41,
+      "gap": 0.1623
+    },
+    {
+      "name": "L2 weight decay 0.001",
+      "train_acc": 1.0,
+      "val_acc": 0.8607,
+      "val_loss": 0.486804925152304,
+      "min_val_loss": 0.4638715750834852,
+      "best_epoch": 36,
+      "gap": 0.13929999999999998
+    },
+    {
+      "name": "L2 weight decay 0.01",
+      "train_acc": 1.0,
+      "val_acc": 0.8621,
+      "val_loss": 0.4635428055514293,
+      "min_val_loss": 0.4660101025571066,
+      "best_epoch": 106,
+      "gap": 0.13790000000000002
+    },
+    {
+      "name": "L2 weight decay 0.05",
+      "train_acc": 0.956,
+      "val_acc": 0.849,
+      "val_loss": 0.6267567423539294,
+      "min_val_loss": 0.6204249999479081,
+      "best_epoch": 131,
+      "gap": 0.10699999999999998
+    },
+    {
+      "name": "dropout 0.2",
+      "train_acc": 1.0,
+      "val_acc": 0.8647,
+      "val_loss": 0.502804079708609,
+      "min_val_loss": 0.4563595546450704,
+      "best_epoch": 37,
+      "gap": 0.13529999999999998
+    },
+    {
+      "name": "dropout 0.5",
+      "train_acc": 1.0,
+      "val_acc": 0.8696,
+      "val_loss": 0.4775932585051087,
+      "min_val_loss": 0.43908786887312923,
+      "best_epoch": 45,
+      "gap": 0.13039999999999996
+    }
+  ],
+  "data_rows": [
+    {
+      "name": "more data: 500 samples",
+      "train_acc": 1.0,
+      "val_acc": 0.8596,
+      "val_loss": 0.48553078657331145,
+      "min_val_loss": 0.464139019856776,
+      "best_epoch": 36,
+      "gap": 0.14039999999999997,
+      "n": 500
+    },
+    {
+      "name": "more data: 2000 samples",
+      "train_acc": 1.0,
+      "val_acc": 0.9131,
+      "val_loss": 0.3248605332833767,
+      "min_val_loss": 0.31630709319358197,
+      "best_epoch": 31,
+      "gap": 0.08689999999999998,
+      "n": 2000
+    },
+    {
+      "name": "more data: 10000 samples",
+      "train_acc": 0.999,
+      "val_acc": 0.9585,
+      "val_loss": 0.14866729626953712,
+      "min_val_loss": 0.15320379455002126,
+      "best_epoch": 29,
+      "gap": 0.04049999999999998,
+      "n": 10000
+    },
+    {
+      "name": "more data: 50000 samples",
+      "train_acc": 0.9898,
+      "val_acc": 0.9744,
+      "val_loss": 0.08209613008215973,
+      "min_val_loss": 0.08337855891205978,
+      "best_epoch": 10,
+      "gap": 0.01539999999999997,
+      "n": 50000
+    }
+  ]
+}

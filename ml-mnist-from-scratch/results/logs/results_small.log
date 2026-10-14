@@ -1,0 +1,12 @@
+overfit: 512 hidden, 500 samples train 1.000  val 0.860  gap 0.140  val loss 0.518
+early stopping (epoch 36)        train 1.000  val 0.860  gap 0.140  val loss 0.460
+smaller model (16 hidden)        train 1.000  val 0.838  gap 0.162  val loss 0.667
+L2 weight decay 0.001            train 1.000  val 0.861  gap 0.139  val loss 0.487
+L2 weight decay 0.01             train 1.000  val 0.862  gap 0.138  val loss 0.464
+L2 weight decay 0.05             train 0.956  val 0.849  gap 0.107  val loss 0.627
+dropout 0.2                      train 1.000  val 0.865  gap 0.135  val loss 0.503
+dropout 0.5                      train 1.000  val 0.870  gap 0.130  val loss 0.478
+more data: 500 samples           train 1.000  val 0.860  gap 0.140  val loss 0.486
+more data: 2000 samples          train 1.000  val 0.913  gap 0.087  val loss 0.325
+more data: 10000 samples         train 0.999  val 0.959  gap 0.040  val loss 0.149
+more data: 50000 samples         train 0.990  val 0.974  gap 0.015  val loss 0.082

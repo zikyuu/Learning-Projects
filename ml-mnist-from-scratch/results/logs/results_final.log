@@ -1,0 +1,2 @@
+baseline   clean val acc 0.9742   distorted val acc 0.5736
+augmented  clean val acc 0.9742   distorted val acc 0.9204
