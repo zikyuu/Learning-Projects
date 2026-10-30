@@ -1,0 +1,16 @@
+[
+ {"id":"niddk-definition-facts","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/definition-facts"},
+ {"id":"niddk-health-risks","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/health-risks"},
+ {"id":"niddk-eating-activity","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/eating-physical-activity"},
+ {"id":"niddk-treatment","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/treatment"},
+ {"id":"niddk-safe-weight-loss","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/choosing-a-safe-successful-weight-loss-program"},
+ {"id":"niddk-healthy-eating-for-life","org":"NIDDK","url":"https://www.niddk.nih.gov/health-information/weight-management/healthy-eating-physical-activity-for-life"},
+ {"id":"medlineplus-protein","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002467.htm"},
+ {"id":"medlineplus-carbohydrates","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002469.htm"},
+ {"id":"medlineplus-fiber","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002470.htm"},
+ {"id":"medlineplus-water","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002471.htm"},
+ {"id":"medlineplus-sodium","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002415.htm"},
+ {"id":"medlineplus-athletic-nutrition","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002458.htm"},
+ {"id":"medlineplus-sweeteners","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/002444.htm"},
+ {"id":"medlineplus-bulimia","org":"MedlinePlus","url":"https://medlineplus.gov/ency/article/000341.htm"}
+]

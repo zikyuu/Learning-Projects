@@ -1,0 +1,9 @@
+.venv/
+data/raw/
+data/index/
+__pycache__/
+ollama.log
+results/eval_runs.json
+results/eval_runs_v1.json
+results/part2_runs.json
+results/part2_two_turn.json
