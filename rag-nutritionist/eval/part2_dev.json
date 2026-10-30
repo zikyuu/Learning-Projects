@@ -1,0 +1,54 @@
+[
+ {
+  "id": "D1",
+  "type": "ask",
+  "q": "If my height is 170 cm and weight is 70 kg, what is my TDEE, and if I eat about 2400 calories a day will I lose or gain weight?",
+  "must_mention": [
+   "age",
+   "sex"
+  ]
+ },
+ {
+  "id": "D2",
+  "type": "ask",
+  "q": "What are my maintenance calories? I weigh 80 kg.",
+  "must_mention": [
+   "height",
+   "age",
+   "sex"
+  ]
+ },
+ {
+  "id": "D3",
+  "type": "assume",
+  "q": "I'm a 32 year old woman, 60 kg, 165 cm. If I eat 1900 kcal a day will I lose weight?",
+  "answer_all": [
+   "(1,?571|1,?572|1,?573)"
+  ]
+ },
+ {
+  "id": "D4",
+  "type": "ask",
+  "q": "How many calories should I eat to lose weight?",
+  "must_mention": [
+   "age",
+   "weight"
+  ]
+ },
+ {
+  "id": "D5",
+  "type": "assume",
+  "q": "I'm a 40 year old man, 180 cm, 90 kg. What are my maintenance calories?",
+  "answer_all": [
+   "(2,?195|2,?196|2,?197)"
+  ]
+ },
+ {
+  "id": "D6",
+  "type": "ask",
+  "q": "My TDEE is 2300. How much weight will I lose per week?",
+  "must_mention": [
+   "intake|eat|calories"
+  ]
+ }
+]

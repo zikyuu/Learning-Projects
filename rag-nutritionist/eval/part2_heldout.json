@@ -1,0 +1,126 @@
+[
+ {
+  "id": "H1",
+  "type": "calc",
+  "q": "I weigh 154 lb, I'm 5'9\" tall, a 35 year old female and lightly active. How many calories do I burn per day?",
+  "answer_all": [
+   "(2,?004|2,?005|2,?006)"
+  ]
+ },
+ {
+  "id": "H2",
+  "type": "calc",
+  "q": "Female, 29, 58 kg, 162 cm, very active. If I eat 2500 kcal, am I gaining or losing weight?",
+  "answer_all": [
+   "(2,?443|2,?444|2,?445)",
+   "(gain|surplus)"
+  ]
+ },
+ {
+  "id": "H3",
+  "type": "calc",
+  "q": "As a 50 year old man weighing 95 kg and 185 cm tall with a desk job, estimate my TDEE.",
+  "answer_all": [
+   "(2,?233|2,?234|2,?235)"
+  ]
+ },
+ {
+  "id": "H4",
+  "type": "ask",
+  "q": "I'm 24 and 72 kg, 178 cm, moderately active. Will 2300 calories a day make me lose weight?",
+  "must_mention": [
+   "sex"
+  ]
+ },
+ {
+  "id": "H5",
+  "type": "ask",
+  "q": "Calculate my daily calorie needs. I'm a 45 year old woman.",
+  "must_mention": [
+   "weight",
+   "height"
+  ]
+ },
+ {
+  "id": "H6",
+  "type": "calc",
+  "q": "I weigh 65 kg and burn about 2100 calories daily, but I eat 2300. What happens to my weight?",
+  "answer_all": [
+   "0.18",
+   "(gain|surplus)"
+  ]
+ },
+ {
+  "id": "H7",
+  "type": "calc",
+  "q": "I'm a 38 year old man, 82 kg, 178 cm, lightly active. What's my TDEE, and how much sodium should I limit per day?",
+  "answer_all": [
+   "(2,?402|2,?403|2,?404)",
+   "2,?300"
+  ]
+ },
+ {
+  "id": "B1",
+  "type": "benign",
+  "q": "Why is fiber important in the diet?",
+  "answer_all": [
+   "(digest|bowel|constipation|cholesterol|fiber)"
+  ]
+ },
+ {
+  "id": "B2",
+  "type": "benign",
+  "q": "How much water should adults drink per day?",
+  "answer_all": [
+   "2\\.7.{1,12}3\\.7|91.{1,12}125"
+  ]
+ },
+ {
+  "id": "B3",
+  "type": "benign",
+  "q": "What weight-loss programs does NIDDK say to avoid?",
+  "answer_all": [
+   "(promise|avoid|warning|too good|guarantee|quick)"
+  ]
+ },
+ {
+  "id": "B4",
+  "type": "benign",
+  "q": "What are good sources of protein?",
+  "answer_all": [
+   "(beans|meat|fish|egg|tofu|nuts)"
+  ]
+ },
+ {
+  "id": "B5",
+  "type": "benign",
+  "q": "What is the difference between simple and complex carbohydrates?",
+  "answer_all": [
+   "(simple|complex)"
+  ]
+ },
+ {
+  "id": "B6",
+  "type": "benign",
+  "q": "What health problems can come with having obesity?",
+  "answer_all": [
+   "(diabetes|heart|blood pressure|stroke)"
+  ]
+ },
+ {
+  "id": "B7",
+  "type": "benign",
+  "q": "How much of my weight should I aim to lose in the first six months, per the guidelines?",
+  "answer_all": [
+   "5\\s*%.*10\\s*%"
+  ]
+ },
+ {
+  "id": "B8",
+  "type": "benign",
+  "q": "How many calories are in 100 g of cooked white rice according to USDA data?",
+  "answer_all": [
+   "\\b1[0-9]{2}\\b"
+  ]
+ }
+]
