@@ -1,0 +1,38 @@
+{
+ "raw broccoli": {
+  "matched_food": "Broccoli, raw",
+  "per": "100 g",
+  "kcal": 31.0,
+  "protein_g": 2.57,
+  "fat_g": 0.34,
+  "carbs_g": 6.27,
+  "source": "USDA FoodData Central"
+ },
+ "broccoli": {
+  "matched_food": "Broccoli, raw",
+  "per": "100 g",
+  "kcal": 31.0,
+  "protein_g": 2.57,
+  "fat_g": 0.34,
+  "carbs_g": 6.27,
+  "source": "USDA FoodData Central"
+ },
+ "cooked white rice": {
+  "matched_food": "Rice, white, glutinous, unenriched, cooked",
+  "per": "100 g",
+  "kcal": 406,
+  "protein_g": 2.02,
+  "fat_g": 0.19,
+  "carbs_g": 21.1,
+  "source": "USDA FoodData Central"
+ },
+ "white rice": {
+  "matched_food": "Flour, rice, white, unenriched",
+  "per": "100 g",
+  "kcal": 359,
+  "protein_g": 6.94,
+  "fat_g": 1.3,
+  "carbs_g": 79.8,
+  "source": "USDA FoodData Central"
+ }
+}
