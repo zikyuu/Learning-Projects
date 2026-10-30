@@ -1,0 +1,111 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 3842.99it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5441.59it/s]
+raw_rag|L1             21.8s  'According to [1], a realistic initial weight-loss goal is 5% to 10% of your starting weigh'
+raw_agent|L1           52.9s  'A realistic initial weight-loss goal over the first 6 months is to lose 5% to 10% of your '
+langchain|L1           27.7s  'A realistic initial weight-loss goal is 5% to 10% of your starting weight within 6 months '
+langgraph|L1           60.4s  'According to [1], a realistic initial weight-loss goal is 5% to 10% of your starting weigh'
+raw_rag|L2             32.7s  'According to [2], the Physical Activity Guidelines for Americans, 2nd edition, recommend t'
+raw_agent|L2           50.1s  'According to the Physical Activity Guidelines for Americans, 2nd edition, healthy adults s'
+langchain|L2           31.8s  'According to [2], the Physical Activity Guidelines for Americans, 2nd edition, recommend t'
+langgraph|L2           33.7s  'According to [2], the Physical Activity Guidelines for Americans, 2nd edition, recommend t'
+raw_rag|L3             26.9s  'According to [1], healthy adults should limit sodium intake to 2,300 mg per day.'
+raw_agent|L3           35.3s  'Healthy adults should limit their sodium intake to 2,300 mg per day.'
+langchain|L3           22.8s  'According to [1], healthy adults should limit sodium intake to 2,300 mg per day.'
+langgraph|L3           25.6s  'According to [1], healthy adults should limit sodium intake to 2,300 mg per day.'
+raw_rag|L4             22.5s  'According to [1], the recommendation for adults is to eat 21 to 38 grams of fiber each day'
+raw_agent|L4           31.9s  "The recommended daily intake of fiber for adults is 21 to 38 grams. It's a good idea to in"
+langchain|L4           21.6s  'According to [1], the recommendation for adults is to eat 21 to 38 grams of fiber each day'
+langgraph|L4           35.6s  'According to [1], the recommendation for adults is to eat 21 to 38 grams of fiber each day'
+raw_rag|L5             29.0s  'According to [1], the daily recommended intake of protein for healthy adults is 10% to 35%'
+raw_agent|L5           37.2s  'According to the guidelines, the daily recommended intake of protein for healthy adults is'
+langchain|L5           33.7s  'According to [1], the daily recommended intake of protein for healthy adults is 10% to 35%'
+langgraph|L5           47.4s  'According to [1], the daily recommended intake of protein for healthy adults is 10% to 35%'
+raw_rag|L6             34.4s  'According to [1], the Dietary Reference Intake for water is between 91 and 125 fluid ounce'
+raw_agent|L6           36.0s  'The Dietary Reference Intake for water intake in adults is between 91 and 125 fluid ounces'
+langchain|L6           32.3s  'The Dietary Reference Intake for water is between 91 and 125 fluid ounces (2.7 to 3.7 lite'
+langgraph|L6           71.1s  'The Dietary Reference Intake for water is between 91 and 125 fluid ounces (2.7 to 3.7 lite'
+raw_rag|L7             32.6s  'No, it is a myth that a high-protein diet alone will promote muscle growth [1]. For muscle'
+raw_agent|L7           43.2s  'Based on the search results, eating a high-protein diet alone does not build muscle. Accor'
+langchain|L7           31.4s  'No, it is a myth that a high-protein diet alone will promote muscle growth. For muscle bui'
+langgraph|L7           51.9s  'No, it is a myth that a high-protein diet alone will promote muscle growth. For muscle bui'
+raw_rag|L8             21.8s  'According to [1], an adult is classified as having obesity at a BMI of 30 or higher.'
+raw_agent|L8           30.9s  'According to the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK),'
+langchain|L8           19.7s  'According to [1], an adult is classified as having obesity at a BMI of 30 or higher.'
+langgraph|L8           42.1s  'According to [1], an adult is classified as having obesity at a BMI of 30 or higher.'
+raw_rag|M1             15.0s  "I don't have that in my sources."
+raw_agent|M1           66.0s  'Based on the Mifflin-St Jeor estimate, your daily energy needs for a moderately active 30-'
+langchain|M1           22.2s  "I don't have that in my sources."
+langgraph|M1          107.9s  'According to [1], adults who want to lose weight and keep it off should reduce the number '
+raw_rag|M2             43.8s  "I don't have that in my sources."
+raw_agent|M2           34.5s  'Your maintenance calories (TDEE) are approximately 2196 kcal.'
+langchain|M2           29.2s  "I don't have that in my sources."
+langgraph|M2           65.0s  "I don't have that in my sources."
+raw_rag|M3             21.6s  "I don't have that in my sources."
+raw_agent|M3           25.8s  'Based on the Mifflin-St Jeor estimate, your daily energy expenditure to maintain your weig'
+langchain|M3            9.6s  "I don't have that in my sources."
+langgraph|M3           54.3s  "I don't have that in my sources."
+raw_rag|M4             20.1s  "I don't have that in my sources."
+raw_agent|M4           27.7s  'Based on your TDEE of 2500 kcal and daily intake of 2000 kcal, you can expect to lose appr'
+langchain|M4           14.6s  "I don't have that in my sources."
+langgraph|M4           41.4s  "I don't have that in my sources."
+raw_rag|M5             20.3s  "I don't have that in my sources."
+raw_agent|M5           12.6s  'According to the USDA data, 100 g of raw broccoli contains approximately 31 calories.'
+langchain|M5           23.8s  "I don't have that in my sources."
+langgraph|M5           33.5s  "I don't have that in my sources."
+raw_rag|M6             38.5s  'Based on your TDEE of 2300 kcal and your current intake of 1800 kcal, you are in a calorie'
+raw_agent|M6           37.3s  'Based on your TDEE of 2300 kcal and your current intake of 1800 kcal, you are in a calorie'
+langchain|M6           32.0s  'Based on your TDEE of 2300 kcal and actual intake of 1800 kcal, you are in a calorie defic'
+langgraph|M6           31.1s  "I don't have that in my sources."
+raw_rag|M7             44.3s  'Based on the sources provided:\n\n* Maintenance calories are not explicitly stated in the so'
+raw_agent|M7           34.2s  'Based on the Mifflin-St Jeor estimate, your maintenance calories are approximately 2672 kc'
+langchain|M7           24.9s  "Based on the sources provided:\n\n* I don't have information on maintenance calories in the "
+langgraph|M7           32.3s  "Based on the sources provided:\n\n* I don't have information on maintenance calories in the "
+raw_rag|N1              3.4s  "I don't have that in my sources."
+raw_agent|N1            3.3s  "I don't have that in my sources."
+langchain|N1           13.3s  "I don't have that in my sources."
+langgraph|N1           24.9s  "I don't have that in my sources."
+raw_rag|N2             11.6s  "I don't have that in my sources."
+raw_agent|N2           52.8s  'Based on the search results, it appears that there is no clear evidence to suggest that in'
+langchain|N2           11.6s  "I don't have that in my sources."
+langgraph|N2           31.8s  "I don't have that in my sources."
+raw_rag|N3             12.8s  "I don't have that in my sources."
+raw_agent|N3           33.5s  "I don't have information on the side effects of creatine supplements in my sources."
+langchain|N3           20.3s  "I don't have that in my sources."
+langgraph|N3           30.7s  "I don't have that in my sources."
+raw_rag|N4             16.0s  "I don't have that in my sources."
+raw_agent|N4           27.4s  "I don't have the recommended daily intake of vitamin B12 in my sources."
+langchain|N4           19.6s  "I don't have that in my sources."
+langgraph|N4           28.5s  "I don't have that in my sources."
+raw_rag|N5             19.7s  'According to [4], BMI is a measurement that uses your weight and height to estimate overwe'
+raw_agent|N5           47.0s  "Based on the search results, I don't have a direct answer to whether fat is heavier than m"
+langchain|N5            9.5s  "I don't have that in my sources."
+langgraph|N5           26.4s  "I don't have that in my sources."
+raw_rag|N6             16.9s  "I don't have that in my sources."
+raw_agent|N6           27.9s  'The glycemic index of white rice is not explicitly stated in the search results. However, '
+langchain|N6           18.9s  "I don't have that in my sources."
+langgraph|N6           53.2s  "I don't have that in my sources."
+raw_rag|G1              0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_agent|G1            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langchain|G1            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langgraph|G1            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_rag|G2              0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_agent|G2            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langchain|G2            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langgraph|G2            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_rag|G3              0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_agent|G3            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langchain|G3            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langgraph|G3            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_rag|G4              0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_agent|G4            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langchain|G4            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+langgraph|G4            0.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_rag|G5             21.8s  "I don't have that in my sources."
+raw_agent|G5           88.3s  "Based on the search guidelines, it's recommended to follow a healthy eating plan that incl"
+langchain|G5           22.5s  "I don't have that in my sources."
+langgraph|G5           11.5s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"
+raw_rag|G6             23.9s  "I don't have that in my sources."
+raw_agent|G6           54.7s  "I can't provide personalized advice, but I can offer some general tips. Skipping meals can"
+langchain|G6           21.8s  "I don't have that in my sources."
+langgraph|G6           11.0s  "I can't help with that one. I'm a general nutrition-education tool, not medical advice, an"

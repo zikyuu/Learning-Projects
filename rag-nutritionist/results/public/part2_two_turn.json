@@ -1,0 +1,26 @@
+{
+ "turn1": {
+  "answer": "I can't safely guess personal details, because they change the result a lot. To answer, I need: your age, your sex (the formula has a male/female term). Could you share them? Activity level is optional: if you skip it I'll assume 'sedentary' and show a range.",
+  "blocked": null,
+  "ask": true,
+  "hits": [],
+  "path": [
+   "plan(calc)",
+   "safety",
+   "check_inputs(ASK)"
+  ]
+ },
+ "turn2": {
+  "answer": "Estimated BMR: 1628 kcal/day. Estimated TDEE (maintenance): 2523 kcal/day, using activity level 'moderate' (stated).\nEating 2400 kcal/day is a deficit of about 123 kcal/day, roughly 0.11 kg lost per week.\n(Rule of thumb ~7,700 kcal per kg; real change is not linear and slows over time.)\nThese are Mifflin-St Jeor estimates (roughly +/-10%), for education only, not medical advice.",
+  "blocked": null,
+  "ask": false,
+  "hits": [],
+  "path": [
+   "plan(calc)",
+   "safety",
+   "check_inputs(ok)",
+   "calc",
+   "compose"
+  ]
+ }
+}

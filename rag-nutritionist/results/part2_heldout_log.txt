@@ -1,0 +1,63 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 4798.50it/s]
+agent_v1|H1          27.6s ask=None 'Based on the Mifflin-St Jeor estimate, your daily energy expenditure (TDEE) is a'
+agent_v2|H1          46.5s ask=None 'Based on the Mifflin-St Jeor estimate, your daily energy expenditure (TDEE) is a'
+graph_v1|H1          57.3s ask=None "I don't have that in my sources."
+graph_v2|H1           0.0s ask=False 'Estimated BMR: 1458 kcal/day. Estimated TDEE (maintenance): 2005 kcal/day, using'
+agent_v1|H2          25.8s ask=None 'Based on the estimated TDEE of 2444 kcal, if you eat 2500 kcal, you are likely t'
+agent_v2|H2         189.3s ask=None "I couldn't finish within the step limit."
+graph_v1|H2          50.0s ask=None "I don't have that in my sources."
+graph_v2|H2           0.0s ask=False 'Estimated BMR: 1286 kcal/day. Estimated TDEE (maintenance): 2444 kcal/day, using'
+agent_v1|H3          23.9s ask=None 'Based on the Mifflin-St Jeor estimate, your estimated TDEE is 2234 kcal.'
+agent_v2|H3          54.8s ask=None 'Your estimated TDEE (Total Daily Energy Expenditure) is 2234 kcal. This is based'
+graph_v1|H3          56.1s ask=None "I don't have that in my sources."
+graph_v2|H3           0.0s ask=False 'Estimated BMR: 1861 kcal/day. Estimated TDEE (maintenance): 2234 kcal/day, using'
+agent_v1|H4          66.2s ask=None 'Based on the Mifflin-St Jeor estimate, a daily calorie intake of 2300 calories w'
+agent_v2|H4           0.0s ask=True "I can't safely guess personal details, because they change the result a lot. To "
+graph_v1|H4          39.3s ask=None "I don't have that in my sources."
+graph_v2|H4           0.0s ask=True "I can't safely guess personal details, because they change the result a lot. To "
+agent_v1|H5          27.8s ask=None 'Based on the Mifflin-St Jeor estimate, your daily calorie needs (TDEE) are appro'
+agent_v2|H5           0.0s ask=True "I can't safely guess personal details, because they change the result a lot. To "
+graph_v1|H5          35.9s ask=None "I don't have that in my sources."
+graph_v2|H5           0.0s ask=True "I can't safely guess personal details, because they change the result a lot. To "
+agent_v1|H6         100.1s ask=None 'Based on the calculations, you are in a calorie deficit of approximately 130 kca'
+agent_v2|H6          33.2s ask=None 'Based on the calculation, you are in a calorie surplus, meaning you are consumin'
+graph_v1|H6          64.0s ask=None 'Based on the sources, it appears that you have a calorie surplus of 200 calories'
+graph_v2|H6           0.0s ask=False 'Using the TDEE you gave: 2100 kcal/day.\nEating 2300 kcal/day is a surplus of abo'
+agent_v1|H7          36.5s ask=None 'Based on the Mifflin-St Jeor estimate, your TDEE is approximately 2403 kcal.\n\nTo'
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 5542.18it/s]
+agent_v2|H7         119.6s ask=None 'Based on the search results, the recommended daily sodium intake for a healthy a'
+graph_v1|H7          38.0s ask=None "I don't have that in my sources."
+graph_v2|H7          21.2s ask=False 'Estimated BMR: 1748 kcal/day. Estimated TDEE (maintenance): 2403 kcal/day, using'
+agent_v1|B1          54.6s ask=None 'Fiber is important in the diet because it adds bulk, aids digestion, and helps p'
+agent_v2|B1          54.6s ask=None 'Fiber is important in the diet because it adds bulk, aids digestion, and helps p'
+graph_v1|B1          51.2s ask=None 'Fiber is important in the diet because it adds bulk, aids digestion, and helps p'
+graph_v2|B1          26.2s ask=False 'Fiber is important in the diet because it adds bulk, aids digestion, and helps p'
+agent_v1|B2          35.5s ask=None 'The recommended daily water intake for adults is between 91 and 125 fluid ounces'
+agent_v2|B2          42.4s ask=None 'The Dietary Reference Intake for water is between 91 and 125 fluid ounces (2.7 t'
+graph_v1|B2          60.4s ask=None 'According to [1], the Dietary Reference Intake for water is between 91 and 125 f'
+graph_v2|B2          37.3s ask=False 'According to [1], the Dietary Reference Intake for water is between 91 and 125 f'
+agent_v1|B3          58.6s ask=None 'According to the NIDDK, some weight-loss programs to avoid are not explicitly me'
+agent_v2|B3          58.5s ask=None 'According to the NIDDK, some weight-loss programs to avoid are not explicitly me'
+graph_v1|B3          40.8s ask=None "I don't have that in my sources."
+graph_v2|B3          16.3s ask=False "I don't have that in my sources."
+agent_v1|B4          60.1s ask=None 'Good sources of protein include:\n\n* Lean meats: turkey, chicken, bison, lean cut'
+agent_v2|B4          62.3s ask=None 'Good sources of protein include:\n\n* Lean meats: turkey, chicken, bison, lean cut'
+graph_v1|B4          79.3s ask=None 'According to the sources:\n\n* Animal sources: turkey or chicken with skin removed'
+graph_v2|B4          48.8s ask=False 'According to the sources:\n\n* Animal sources: turkey or chicken with skin removed'
+agent_v1|B5          38.7s ask=None 'According to MedlinePlus, simple carbohydrates are broken down by the body into '
+agent_v2|B5          44.4s ask=None 'According to MedlinePlus, simple carbohydrates are broken down by the body into '
+graph_v1|B5          80.8s ask=None 'According to [1] and [2], both sources list "Complex carbohydrates" and "Simple '
+graph_v2|B5          57.5s ask=False 'According to [1] and [2], both sources list "Complex carbohydrates" and "Simple '
+agent_v1|B6          58.5s ask=None 'According to the National Institute of Diabetes and Digestive and Kidney Disease'
+agent_v2|B6          64.5s ask=None 'According to the National Institute of Diabetes and Digestive and Kidney Disease'
+graph_v1|B6          74.0s ask=None 'According to the sources:\n\n* Mental health problems, such as long-term stress, b'
+graph_v2|B6          50.7s ask=False 'According to the sources:\n\n* Mental health problems, such as long-term stress, b'
+agent_v1|B7          31.2s ask=None 'According to the guidelines, a safe and realistic weight loss goal is to aim for'
+agent_v2|B7          33.5s ask=None 'Based on the guidelines from the National Institute of Diabetes and Digestive an'
+graph_v1|B7          62.1s ask=None 'According to the guidelines, experts recommend an initial weight-loss goal of 5%'
+graph_v2|B7          36.8s ask=False 'According to the guidelines, experts recommend an initial weight-loss goal of 5%'
+agent_v1|B8          14.5s ask=None 'According to the USDA data, 100 g of cooked white rice contains approximately 40'
+agent_v2|B8          13.5s ask=None 'According to the USDA data, 100 g of cooked white rice contains approximately 40'
+graph_v1|B8          46.8s ask=None "I don't have that in my sources."
+graph_v2|B8           2.3s ask=False "USDA FoodData Central, per 100 g of 'Flour, rice, white, unenriched': 359 kcal, "

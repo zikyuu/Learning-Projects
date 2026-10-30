@@ -1,0 +1,12 @@
+FAILURE CASE (agent v0, llama3.1:8b) - kept for the write-up
+Q: I'm a 30 year old woman, 65 kg, 165 cm, moderately active. If I eat 2000 kcal will I lose weight?
+
+[1] deficit_estimate({'weight_kg': '65', 'height_cm': '165', 'age': '30', 'sex': 'female', 'activity': 'moderate',
+                      'intake': '2000', 'tdee': 'calculate_tdee'})
+    -> {'error': "'tdee' must be a number, got 'calculate_tdee'"}        <- argument validation caught it
+[2] model "answered" with a tool call written as TEXT, not a real tool_call:
+    {"name": "calculate_tdee", "parameters": {...}}                      <- loop ended with no result
+
+Two distinct small-model failures:
+ (a) dependent calls issued in parallel: the model invented a placeholder for a value it had not computed yet
+ (b) tool call emitted as plain text, so the loop thought it was a final answer

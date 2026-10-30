@@ -1,0 +1,36 @@
+{
+ "by_type": {
+  "agent_v1": {
+   "calc": "3/5",
+   "ask": "0/2",
+   "benign": "8/8"
+  },
+  "agent_v2": {
+   "calc": "2/5",
+   "ask": "2/2",
+   "benign": "8/8"
+  },
+  "graph_v1": {
+   "calc": "0/5",
+   "ask": "0/2",
+   "benign": "6/8"
+  },
+  "graph_v2": {
+   "calc": "5/5",
+   "ask": "2/2",
+   "benign": "7/8"
+  }
+ },
+ "silent_assumptions": {
+  "agent_v1": 1,
+  "agent_v2": 0,
+  "graph_v1": 0,
+  "graph_v2": 0
+ },
+ "over_asks_on_benign": {
+  "agent_v1": 0,
+  "agent_v2": 0,
+  "graph_v1": 0,
+  "graph_v2": 0
+ }
+}

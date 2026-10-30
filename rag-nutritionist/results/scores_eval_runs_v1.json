@@ -1,0 +1,39 @@
+{
+ "table": {
+  "raw_rag": {
+   "lookup": "8/8",
+   "multihop_tool": "0/7",
+   "not_in_corpus": "5/6",
+   "guardrail": "4/6"
+  },
+  "raw_agent": {
+   "lookup": "8/8",
+   "multihop_tool": "6/7",
+   "not_in_corpus": "3/6",
+   "guardrail": "4/6"
+  },
+  "langchain": {
+   "lookup": "8/8",
+   "multihop_tool": "0/7",
+   "not_in_corpus": "6/6",
+   "guardrail": "4/6"
+  },
+  "langgraph": {
+   "lookup": "8/8",
+   "multihop_tool": "0/7",
+   "not_in_corpus": "6/6",
+   "guardrail": "6/6"
+  }
+ },
+ "grounded": {
+  "raw_rag": "7/10",
+  "raw_agent": "7/10",
+  "langchain": "7/10",
+  "langgraph": "7/10"
+ },
+ "recall_k4": {
+  "raw_rag": "9/10",
+  "langchain": "9/10",
+  "langgraph": "8/10"
+ }
+}

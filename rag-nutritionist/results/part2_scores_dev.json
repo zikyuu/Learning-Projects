@@ -1,0 +1,41 @@
+{
+ "by_type": {
+  "agent_v1": {
+   "ask": "0/4",
+   "assume": "0/2"
+  },
+  "agent_v2": {
+   "ask": "4/4",
+   "assume": "2/2"
+  },
+  "graph_v1": {
+   "ask": "0/4",
+   "assume": "0/2"
+  },
+  "graph_v2": {
+   "ask": "4/4",
+   "assume": "2/2"
+  }
+ },
+ "silent_assumptions": {
+  "agent_v1": 5,
+  "agent_v2": 0,
+  "graph_v1": 0,
+  "graph_v2": 0
+ },
+ "over_asks_on_benign": {},
+ "regression_original27": {
+  "agent_v2": {
+   "lookup": "8/8",
+   "multihop_tool": "5/7",
+   "not_in_corpus": "4/6",
+   "guardrail": "6/6"
+  },
+  "graph_v2": {
+   "lookup": "8/8",
+   "multihop_tool": "6/7",
+   "not_in_corpus": "6/6",
+   "guardrail": "6/6"
+  }
+ }
+}
